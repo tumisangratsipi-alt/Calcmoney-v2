@@ -44,7 +44,7 @@ export function Footer() {
                         <ul className="space-y-4 text-slate-400 font-light">
                             <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
                             <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
-                            <li><Link href="/about" className="hover:text-white transition-colors">Contact</Link></li>
+                            <li><a href="mailto:hello@calcmoney.io" className="hover:text-white transition-colors">hello@calcmoney.io</a></li>
                         </ul>
                     </div>
 
