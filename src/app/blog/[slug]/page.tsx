@@ -22,7 +22,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     const mockTOC = [
         { id: "introduction", title: "Core Mechanics" },
         { id: "analysis", title: "Quantitative Analysis" },
-        { id: "execution", title: "Execution Strategy" }
+        { id: "execution", title: "Action Steps" }
     ];
 
     return (
@@ -35,12 +35,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             <div className="relative border-b border-white/[0.04] pt-16 pb-20 backdrop-blur-sm z-10">
                 <div className="container mx-auto px-4 max-w-7xl relative z-10">
                     <Link href="/blog" className="inline-flex items-center text-[10px] uppercase tracking-widest font-bold text-slate-500 hover:text-teal-400 transition-colors mb-12 py-2 px-4 rounded-full border border-white/[0.04] bg-white/[0.01] hover:bg-white/[0.03]">
-                        <ArrowLeft className="w-3 h-3 mr-2" /> Return to Intelligence Terminal
+                        <ArrowLeft className="w-3 h-3 mr-2" /> Back to All Articles
                     </Link>
 
                     <div className="flex flex-wrap items-center gap-4 mb-8">
                         <span className="text-[10px] font-bold text-amber-500 uppercase tracking-widest bg-amber-500/10 border border-amber-500/20 px-3 py-1 rounded">
-                            Execution Strategy
+                            Financial Guide
                         </span>
                         <div className="flex items-center gap-4 text-xs font-mono text-slate-500">
                             <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5" /> {post.readTime || "7 min read"}</span>
@@ -52,6 +52,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                     <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white tracking-tighter leading-[1.1] mb-8 drop-shadow-lg max-w-4xl">
                         {post.title}
                     </h1>
+
+                    {post.coverImage && (
+                        <div className="relative w-full aspect-[21/9] rounded-2xl overflow-hidden border border-white/[0.04] shadow-2xl mt-4">
+                            <Image src={post.coverImage} alt={post.title} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 70vw" priority />
+                        </div>
+                    )}
                 </div>
             </div>
 

@@ -43,7 +43,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-teal-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -60,7 +60,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-amber-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -77,7 +77,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-rose-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -94,7 +94,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-teal-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -111,7 +111,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-teal-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -128,7 +128,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-amber-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -145,7 +145,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-emerald-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -162,7 +162,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-blue-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -179,7 +179,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-rose-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -196,7 +196,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-blue-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -213,7 +213,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-purple-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -230,7 +230,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-indigo-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -247,7 +247,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-emerald-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -264,7 +264,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-amber-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -281,7 +281,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-red-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -298,7 +298,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-emerald-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -315,7 +315,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-blue-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -332,7 +332,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-purple-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -349,7 +349,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-emerald-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -366,7 +366,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-blue-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -383,7 +383,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-emerald-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -400,7 +400,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-blue-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 
@@ -417,7 +417,7 @@ export default function CalculatorsHub() {
                             </p>
                         </div>
                         <div className="flex items-center text-xs font-bold text-red-500 uppercase tracking-widest gap-2">
-                            Initialize Module <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Try It Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </Link>
 

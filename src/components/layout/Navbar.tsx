@@ -31,7 +31,7 @@ export function Navbar() {
                 <div className="flex items-center gap-4">
                     <Button asChild className="hidden md:flex bg-teal-600/90 text-white text-[10px] font-bold tracking-widest hover:bg-teal-500 shadow-[0_0_20px_rgba(13,148,136,0.2)] transition-colors rounded-lg px-6 h-10">
                         <Link href="/calculators/mortgage">
-                            INITIALIZE ENGINES
+                            GET STARTED
                         </Link>
                     </Button>
                     <button className="md:hidden p-2 text-slate-400 hover:text-white transition-colors">
