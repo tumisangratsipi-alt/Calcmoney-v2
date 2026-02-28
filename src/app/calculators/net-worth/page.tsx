@@ -111,10 +111,10 @@ export default function NetWorthTerminal() {
                             <div className="bg-[#05060A]/90 border border-white/[0.05] p-8 relative overflow-hidden mb-6 rounded-2xl shadow-2xl backdrop-blur-3xl">
                                 <div className="absolute inset-0 bg-teal-500/5 blur-[80px] rounded-full pointer-events-none mix-blend-screen" />
                                 <div className="relative z-10">
-                                    <p className="text-[10px] font-bold text-teal-400 uppercase tracking-widest mb-8 border-b border-white/[0.04] pb-4 flex items-center gap-3">
+                                    <div className="text-[10px] font-bold text-teal-400 uppercase tracking-widest mb-8 border-b border-white/[0.04] pb-4 flex items-center gap-3">
                                         <div className="w-2 h-2 rounded-full bg-teal-400 animate-pulse shadow-[0_0_10px_rgba(45,212,191,0.6)]"></div>
-                                        Executive Summary
-                                    </p>
+                                        Your Summary
+                                    </div>
 
                                     <div className="mb-8">
                                         <h3 className="text-slate-500 text-xs tracking-widest uppercase font-medium mb-3">Total Assets</h3>
