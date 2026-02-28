@@ -9,8 +9,8 @@ export function Navbar() {
             <div className="container mx-auto px-4 h-20 flex items-center justify-between">
                 {/* Brand */}
                 <Link href="/" className="flex items-center gap-3 group">
-                    <div className="w-10 h-10 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center text-white font-black text-xl transition-all duration-500 group-hover:scale-105 group-hover:bg-white/10 group-hover:shadow-[0_0_15px_rgba(255,255,255,0.1)] relative overflow-hidden">
-                        <Image src="/images/logo-master.png" alt="CalcMoney Logo" width={24} height={24} className="group-hover:float-yoyo transition-transform duration-500 relative z-10" />
+                    <div className="relative overflow-hidden flex items-center justify-center transition-all duration-500 group-hover:scale-105">
+                        <Image src="/images/logo-master.png" alt="CalcMoney Logo" width={44} height={44} className="mix-blend-screen group-hover:float-yoyo transition-transform duration-500 relative z-10 drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]" />
                     </div>
                     <span className="font-black text-2xl tracking-tighter text-white">CalcMoney.</span>
                 </Link>

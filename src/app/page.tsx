@@ -28,7 +28,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl text-slate-400 font-light max-w-xl mb-12 leading-relaxed">
-              The financial engine for executives. Model compound trajectories, un-layer complex debt protocols, and execute with calculated certainty inside a secure digital vault. No noise. Just the numbers.
+              The financial engine that gives you an unfair advantage. Model compound growth, crush debt strategically, and make every major money decision with mathematical certainty. No guesswork. Just the numbers.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-6">
