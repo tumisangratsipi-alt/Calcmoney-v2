@@ -147,7 +147,7 @@ export default function RentVsBuyCalculator() {
                                 <p className="text-xl font-mono text-white group-hover:text-amber-300 transition-colors">$248,300</p>
                             </div>
                             <div className="bg-[#05060A]/90 backdrop-blur-xl p-6 hover:bg-white/[0.02] transition-colors group">
-                                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2 mb-4"><div className="w-2 h-2 bg-teal-400 rounded-full shadow-[0_0_8px_rgba(45,212,191,0.8)]"></div> Aura Score</p>
+                                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2 mb-4"><span className="w-2 h-2 bg-teal-400 rounded-full shadow-[0_0_8px_rgba(45,212,191,0.8)] inline-block"></span> Aura Score</span>
                                 <p className="text-xl font-mono text-white group-hover:text-teal-300 transition-colors">92<span className="text-sm font-sans text-slate-500">/100</span></p>
                             </div>
                             <div className="bg-[#05060A]/90 backdrop-blur-xl p-6 hover:bg-white/[0.02] transition-colors group">
