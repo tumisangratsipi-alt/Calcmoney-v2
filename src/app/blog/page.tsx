@@ -24,7 +24,7 @@ export default function BlogIndex() {
                         Financial Intelligence.
                     </h1>
                     <p className="text-xl text-slate-400 font-light max-w-2xl mx-auto text-center leading-relaxed">
-                        Read our latest mathematical guides, execution strategies, and algorithmic breakdowns for mastering your money.
+                        Read our latest guides, step-by-step strategies, and expert breakdowns — all free, no signup needed.
                     </p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ export default function BlogIndex() {
                         <Link
                             href={`/blog/${post.slug}`}
                             key={post.slug}
-                            className="aura-panel relative flex flex-col group bg-[#090B14]/40 backdrop-blur-2xl border border-white/[0.04] rounded-2xl overflow-hidden hover:bg-white/[0.02] hover:border-white/[0.08] transition-all shadow-2xl duration-500 hover:-translate-y-1"
+                            className="aura-panel relative flex flex-col group cursor-pointer bg-[#090B14]/40 backdrop-blur-2xl border border-white/[0.04] rounded-2xl overflow-hidden hover:bg-white/[0.02] hover:border-white/[0.08] transition-all shadow-2xl duration-500 hover:-translate-y-1"
                         >
                             {post.coverImage && (
                                 <div className="relative w-full aspect-[16/9] border-b border-white/[0.04] bg-white/[0.01] flex items-center justify-center overflow-hidden">
@@ -53,7 +53,7 @@ export default function BlogIndex() {
 
                             <div className="p-8 flex flex-col flex-1 relative z-10">
                                 <div className="flex items-center gap-3 mb-6">
-                                    <span className="text-[10px] font-bold text-teal-400 uppercase tracking-widest bg-teal-500/10 border border-teal-500/20 px-3 py-1 rounded">Strategy</span>
+                                    <span className="text-[10px] font-bold text-teal-400 uppercase tracking-widest bg-teal-500/10 border border-teal-500/20 px-3 py-1 rounded">Guide</span>
                                     <span className="font-mono text-xs text-slate-500">
                                         {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
                                     </span>
@@ -68,7 +68,7 @@ export default function BlogIndex() {
                                 </p>
 
                                 <div className="flex items-center text-[10px] uppercase tracking-widest font-bold text-teal-400 gap-2 group-hover:gap-3 transition-all border-t border-white/[0.04] pt-6 relative z-10">
-                                    Read Analysis <ArrowRight className="w-4 h-4" />
+                                    Read More <ArrowRight className="w-4 h-4" />
                                 </div>
                             </div>
                         </Link>

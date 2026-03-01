@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ShieldCheck } from "lucide-react";
+import { AuroraBackground, ScrollCounter } from "@/components/ui/premium-animations";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       <section className="relative pt-32 pb-24 lg:pt-48 lg:pb-32 border-b border-white/[0.04]">
         {/* Faint Architectural SVG Grid Layered on Deep Space Background */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none" />
-        <div className="absolute top-0 right-1/4 w-1/2 h-96 bg-teal-500/10 blur-[150px] rounded-full pointer-events-none mix-blend-screen" />
+        {/* Aurora Breathing Gradient */}
+        <AuroraBackground />
 
         <div className="container mx-auto px-4 max-w-7xl relative z-10 grid lg:grid-cols-2 gap-16 items-center">
 
@@ -28,7 +30,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl text-slate-400 font-light max-w-xl mb-12 leading-relaxed">
-              The financial engine that gives you an unfair advantage. Model compound growth, crush debt strategically, and make every major money decision with mathematical certainty. No guesswork. Just the numbers.
+              Know your numbers. Make confident decisions. 24 free calculators for every money moment — mortgage, debt payoff, retirement, and more. No account, no cost, ever.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-6">
@@ -68,11 +70,15 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="flex flex-wrap justify-center items-center gap-12 sm:gap-20 text-center">
             <div>
-              <p className="text-2xl font-black text-white tracking-tight">24</p>
+              <p className="text-2xl font-black text-white tracking-tight">
+                <ScrollCounter target={24} />
+              </p>
               <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1">Free Calculators</p>
             </div>
             <div>
-              <p className="text-2xl font-black text-white tracking-tight">27</p>
+              <p className="text-2xl font-black text-white tracking-tight">
+                <ScrollCounter target={27} />
+              </p>
               <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1">Expert Guides</p>
             </div>
             <div>

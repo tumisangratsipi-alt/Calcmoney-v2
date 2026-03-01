@@ -44,7 +44,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                         </span>
                         <div className="flex items-center gap-4 text-xs font-mono text-slate-500">
                             <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5" /> {post.readTime || "7 min read"}</span>
-                            <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5" /> {post.author || "CalcMoney Engines"}</span>
+                            <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5" /> {post.author || "CalcMoney Team"}</span>
                             <span>{new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 {/* Left Sidebar: Table of Contents */}
                 <aside className="lg:w-1/4 hidden lg:block">
                     <div className="sticky top-32 aura-panel bg-[#090B14]/40 backdrop-blur-2xl border border-white/[0.04] rounded-2xl p-6 shadow-2xl">
-                        <h4 className="text-[10px] uppercase tracking-widest font-bold text-slate-500 mb-6 drop-shadow-sm">Index of Variables</h4>
+                        <h4 className="text-[10px] uppercase tracking-widest font-bold text-slate-500 mb-6 drop-shadow-sm">Table of Contents</h4>
                         <ul className="space-y-4">
                             {mockTOC.map((item, index) => (
                                 <li key={index}>
@@ -120,13 +120,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                     {/* In-Article CTA Component */}
                     <div className="aura-panel relative block p-12 md:p-16 text-center bg-[#090B14]/60 backdrop-blur-3xl border border-white/[0.04] rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] group">
                         <div className="absolute inset-0 bg-teal-500/10 blur-[100px] rounded-full pointer-events-none mix-blend-screen opacity-50 group-hover:opacity-100 transition-opacity duration-700"></div>
-                        <h3 className="font-black text-white text-3xl md:text-4xl tracking-tighter mb-4 relative z-10 drop-shadow-md">Compile Your Own Variables.</h3>
-                        <p className="text-slate-400 font-light text-lg mb-10 relative z-10 max-w-xl mx-auto">Stop reading mathematical theory. Plug your exact numbers into our engine and generate an immutable trajectory.</p>
+                        <h3 className="font-black text-white text-3xl md:text-4xl tracking-tighter mb-4 relative z-10 drop-shadow-md">Ready to Run the Numbers?</h3>
+                        <p className="text-slate-400 font-light text-lg mb-10 relative z-10 max-w-xl mx-auto">Stop estimating. Plug in your real numbers and see exactly where you stand — free, instant, no signup.</p>
                         <Link
                             href="/calculators"
                             className="inline-flex h-14 items-center justify-center rounded-lg bg-teal-600/90 px-10 text-[10px] uppercase tracking-widest font-bold text-white hover:bg-teal-500 shadow-[0_0_30px_rgba(13,148,136,0.3)] hover:shadow-[0_0_40px_rgba(13,148,136,0.5)] transition-all hover:-translate-y-1 relative z-10"
                         >
-                            INITIALIZE CALCULATOR
+                            Try the Free Calculator
                         </Link>
                     </div>
 
